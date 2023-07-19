@@ -74,17 +74,17 @@ chown -R devopsadmin:devopsadmin /etc/ansible
 su - devopsadmin	
 ssh-keygen
 
-ssh-copy-id ansibleadmin@172.31.4.235
-ssh-copy-id ansibleadmin@172.31.1.218
+ssh-copy-id ansibleadmin@172.31.7.72
+ssh-copy-id ansibleadmin@172.31.9.140
 
-ssh ansibleadmin@172.31.4.235
-ssh ansibleadmin@172.31.1.218
+ssh ansibleadmin@172.31.7.72
+ssh ansibleadmin@172.31.9.140
 
 ###update vi etc/ansible/host
 
 [testnodes]
-samplenode1 ansible_ssh_host=172.31.4.235 ansible_ssh_user=ansibleadmin
-samplenode2 ansible_ssh_host=172.31.1.218 ansible_ssh_user=ansibleadmin
+samplenode1 ansible_ssh_host=172.31.7.72 ansible_ssh_user=ansibleadmin
+samplenode2 ansible_ssh_host=172.31.9.140 ansible_ssh_user=ansibleadmin
 
 #**************************************************************************************************************************
 #hosts file is the default Inventory file for ansible 
