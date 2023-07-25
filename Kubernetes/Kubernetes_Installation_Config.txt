@@ -252,6 +252,10 @@ worker-node   Ready    worker                 2m55s   v1.24.1
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ###Only in Worker Nodes:
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+#old
 kubeadm join 172.31.33.4:6443 --token 7i7qq3.5zems3xn6wiuclim \
         --discovery-token-ca-cert-hash sha256:f912d4aa3509cc4f1827296c34f08c27446895e58731300f3633b074f97d8c13
+
+#new
+kubeadm join 172.31.35.194:6443 --token kktkcl.alq5jlkhkk50uxft \
+        --discovery-token-ca-cert-hash sha256:0d513648ffc3963855b68d9eebed972d4f2cc70f4a61fa7dd8a504c447986d5c
