@@ -259,3 +259,6 @@ kubeadm join 172.31.33.4:6443 --token 7i7qq3.5zems3xn6wiuclim \
 #new
 kubeadm join 172.31.35.194:6443 --token kktkcl.alq5jlkhkk50uxft \
         --discovery-token-ca-cert-hash sha256:0d513648ffc3963855b68d9eebed972d4f2cc70f4a61fa7dd8a504c447986d5c
+#temp
+kubeadm join 172.31.35.89:6443 --token pvzf48.jzu1d5uxnxp4ttad \
+        --discovery-token-ca-cert-hash sha256:138ad4a0936cea45058f78cb9e1a5378e520a6813fa2504c2ae32bb998a36186
